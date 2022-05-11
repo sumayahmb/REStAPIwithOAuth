@@ -8,6 +8,8 @@ the follwing url is to generate the token
 
 http://localhost:8080/Lendo/oauth/token?grant_type=password&username=sumaya&password=123
 
+BasicAuthorization: username=my-trusted-client, password=secret
+
 Method: Get
 
 URL: http://localhost:8080/Lendo/users/?access_token=your-generared-token
